@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<style>
+    input {
+        margin-bottom: 10px;
+        margin-left: 100px;
+    }
+    button{
+        margin: 20px;
+    }
+</style>
+<body>
+
+    <input type="number" id="num1">
+    <input type="number" id="num2">
+    <button onclick="plus()">+</button>
+    <button onclick="minus()">-</button>
+    <button onclick="umnoj()">*</button>
+    <button onclick="delenie()">/</button>
+    <button onclick="stepen()">^</button>
+    <button onclick="koren()">√</button>
+    <p id="result">ответ:</p>
+
+    <script src="./main.js"></script>
+</body>
+</html>
